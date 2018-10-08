@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha **/mongodb-update.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "mongodb": "^2.2.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
